@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aula 10: PHP</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="_css/estilo.css">
+    
+    </head>
+    <body>
+        <div>
+            <form method="get" action="receber07.php">
+            <label>Número: </label>
+            <br>
+            <input type="number" name="num" min="0"/>
+            <br/>
+            <fieldset><legend>Operação</legend>
+                <input type="radio" name="oper" id="dobro" value="1" checked="checked"/>
+                <label for="dobro">Dobro</label><br/>
+                <input type="radio" name="oper" id="cubo" value="2"/>
+                <label for="cubo">Cubo</label><br/>
+                <input type="radio" name="oper" id="raiz" value="3"/>
+                <label for="raiz">Raiz Quadrada</label><br/>
+            </fieldset>
+            
+            <input type="submit" value="Calcular" class="botao"/>
+        </form>
+        </div>
+    </body>
+</html>
