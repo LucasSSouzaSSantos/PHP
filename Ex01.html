@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="_css/estilo.css">
+        <style>
+            .nota{
+                width: 60px;
+                border-radius: 5px;
+                border-color: #000000;
+                height: 20px;
+                margin: 5px 5px 0px 5px;
+            }
+            #media{
+                width: 150px;
+                height: 50px;
+                margin-top: 10px;
+                font-family: sans-serif;
+                color: #fff;
+                font-size: 12pt;
+                background-color: #273747;
+                border-radius: 10px;
+                
+            }
+            
+        </style>
+    
+    </head>
+    <body>
+        <div>
+            <form method="get" action="Ex01.php">
+            <label>Nota 1:   </label>
+            <input type="number" name="nota1" max="10" min="0" step="0.5" class="nota"/>
+            <br/>
+            <label>Nota 2: </label>
+            <input type="number" name="nota2" max="10" min="0" step="0.5" class="nota"/>
+            <br/>
+            <input type="submit" value="Calcular Média" id="media"/>
+        </form>
+        </div>
+    </body>
+</html>
