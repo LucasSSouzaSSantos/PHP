@@ -12,7 +12,10 @@
  *  privado      saldo:       Real 
  *  privado      status:      lógico
  * 
- * Metodo Construtor()
+ + --------------------------------------------------- +
+ *                 Métodos Especiais                   *
+ + --------------------------------------------------- +
+ *  Metodo Construtor()
  *      status = falso
  *      saldo = 0
  * FimMetodo
@@ -56,7 +59,9 @@
  * publico setStatus(s: lógico)
  *      status = s
  * fimMetodo
- * 
+ + --------------------------------------------------- +
+ *                    Métodos                          *
+ + --------------------------------------------------- +
  * publico Metodo abrirConta()
  * 
  * fimMetodo
