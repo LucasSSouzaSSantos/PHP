@@ -76,6 +76,9 @@
  *  fimInterface                                         *
  + ----------------------------------------------------- +
  * 
+ * OBS.:  Quando tem a palavra abstrato na frente do método,
+ *       isso informa que o método não será implementado ali.
+ * 
  * 
  + ----------------------------------------------------- +
  *  Classe ControleRemoto                                *

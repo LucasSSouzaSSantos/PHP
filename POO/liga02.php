@@ -14,6 +14,8 @@
             
             $li ->discar();
             $li ->ligar();
+            
+            $li ->falar("Alô! É Maria?");
         ?>
     </body>    
 </html>

@@ -1,6 +1,3 @@
-<?php
-
-/*
  * Linguagem de Modelagem Unificada(UML)
  * - Diagrama de Classes
  * +---------------------+
@@ -57,6 +54,3 @@
  *  c1.Cor = "Azul"  vai funcionar visibilidade publica
  *  c1.ponta = 0.5 não vai funcionar visibilidade privada só a classe tem a acesso
  *  c1.carga = 80 não vai funcionar visibilidade protegida só a classe mâe e filha tem acesso
- * 
- * 
- *  */

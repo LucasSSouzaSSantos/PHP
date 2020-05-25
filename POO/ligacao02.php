@@ -27,13 +27,13 @@ class ligacao02 {
                 echo "Carga insuficiente <br>";
         }
     }
-    function falar()
+    function falar($msg)
     {
-        echo "Falando...";
+        echo "Falando: $msg<br/>";
     }
-    function ouvir()
+    function ouvir($msg)
     {
-        echo "Ouvindo...";
+        echo "Ouvindo: $msg<br>";
     }
     
 }

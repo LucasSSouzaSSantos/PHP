@@ -1,6 +1,3 @@
-<?php
-
-/*
  * Aula 02: O que é um Objeto?
  *   > Definição: Coisa materail ou abstrata que pode ser 
  * percebida pelos sentidos e descrita por meio das suas 
@@ -39,7 +36,7 @@
  * |                                |
  * |        fimSe                   |
  * |                                |    
- * |        fimMetodo               |    
+ * |    fimMetodo                   |    
  * |                                |                
  * |    Metodo tampar()             |                
  * |                                |                        
@@ -62,6 +59,4 @@
  * Escolher dois objetos ao seu lado
  *  - Cadeira e Ventilador
  * Classificar dois objetos abstrato
- *  - 
- * *  */
-
+ *  - alimentar o gato 
