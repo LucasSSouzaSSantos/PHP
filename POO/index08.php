@@ -7,8 +7,8 @@
     <body>
         <pre>
             <?php
-                require_once "Lutador.php";
-                require_once "Luta.php";
+                require_once "Lutador08.php";
+                require_once "Luta08.php";
                 $L = array();
                 $L[0] = new Lutador("Pretty Boy", "França", 31, 1.75, 68.9, 11, 2, 1);
                 $L[1] = new Lutador("Putscript", "Brasil", 29, 1.68, 57.8, 14, 2, 3);
